@@ -1,0 +1,222 @@
+* {
+    margin: auto;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    height: 1150px;
+    width: 1200px;
+    background-color:#245076;
+    display: block;
+}
+
+#header {
+    display: inline;
+    vertical-align: top;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#header a {
+    width: 300px;
+    margin-left: 0px;
+}
+
+#textsize {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#righttop input {
+    width: 220px;
+    text-align: center;
+
+}
+#searchbar {
+    height: 40px;
+    width: 320px;
+    background-color: #444444;
+    border-radius: 15px;
+    padding: 20px 30px;
+    box-shadow: 3px 3px;
+    margin-right: 0px;
+}
+#righttop {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 0px;
+}
+ #righttop button {
+    background: #245076;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #6c6c6c;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 60px;
+    margin-left: 5px;
+}
+
+.normlg {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+    height: 35px;
+    width: 85%;
+    margin-right: 45px;
+    background-color: #487fad;
+    border-radius: 15px;
+    box-shadow: 3px 3px;
+}
+#navlinks {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 15px;
+}
+#navbar ul li {
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;  
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;  
+}
+
+#middle {
+    display: inline-block;
+}
+    #sidebar {
+        vertical-align: top;
+        display: inline-block;
+        height: 400px;
+        width: 300px;
+        background-color: #245076;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+        /* #sidebar ul {
+            list-style-image: url(doublearrow.png)
+        } img too big */ 
+        #sidebar ul li {
+            
+            text-align: center;
+            color: yellow;
+            list-style-position: inside;
+            /* this centers bullet points as texts */
+        }
+        #sidebar ul li a {
+            text-align: center;
+            color: white;
+        }
+
+    #rightbar {
+        display: inline-block;
+        height: 400px;
+        width: 700px;
+        background-color: #245076;
+        margin-top: 30px;
+        text-align: center;
+        color: white;
+    }
+        #yellowtxt {
+            color: yellow;
+            font-size: 1.1em;
+            line-height: 80%;
+        }
+#lowmid {
+    display: inline-block;
+    height: 300px;
+    width: 1210px;
+    padding-left: 0px;
+    margin-left: -10px;
+    background-color:#fff;
+    border-top: 5px solid #183753;
+
+    display: flex;
+    align-content: space-between;
+}
+
+    #lowleft {
+        text-align: center;
+        display: inline-block;
+        height: 280px;
+        width: 485px;
+        background-color: white;
+        margin-top: 5px;
+        margin-left: 120px;
+        border-top: 5px solid #73a7d5;
+    }
+        #lowleft ul {
+            line-height: 50%;
+            display: inline-block;
+            /* this moves bullet points closer,vertically aligned, but not center */
+        }
+
+    #lowright {
+        text-align: center;
+        font-size: .9em;
+        display: inline-block;
+        height: 280px;
+        width: 485px;
+        background-color: white;
+        margin-top: 5px;
+        margin-right: 50px;
+        border-top: 5px solid #73a7d5;
+    }
+
+        #lowright ul {
+            line-height: 35%;
+            display: inline-block;
+            /* this moves bullet points closer,vertically aligned, but not center */
+        }
+
+    #bottom {
+    margin-bottom: 0px;
+    display: inline;
+    
+    display: flex;
+    justify-content:space-between;
+
+    height:62px;
+    width:1210px;
+    padding-left: 0px;
+    margin-left: -10px;
+    background-color:#245076;
+    }
+    #bottom ul {
+        margin-bottom: -25px;
+    }
+    #bottom ul li {
+        display: inline;
+        font-size: 20px;
+        text-decoration: none;
+        color: #82b4e0; 
+    }
+
+    #rockbottom {
+        display: inline;
+        vertical-align: top;
+        
+        display: flex;
+        justify-content:center;
+    
+        height:30px;
+        width:1210px;
+        padding-left: 0px;
+        margin-left: -10px;
+        background-color:#245076;
+        }
+        #rockbottom ul li {
+            display: inline;
+            font-size: 20px;
+            text-decoration: none;
+            color: #82b4e0;  
+        }
